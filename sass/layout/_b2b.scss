@@ -1,0 +1,75 @@
+.b2b-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    @media only screen and (max-width: 1000px) {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    @media only screen and (max-width: 450px) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    &__content {
+        background-color: $color-secondary-background;
+        padding: 8rem;
+        border: 10px rgba($color-primary, 0.05) dashed;
+        border-radius: 1rem;
+        @media only screen and (max-width: 900px) {
+            padding: 5rem;
+        }
+        @media only screen and (max-width: 768px) {
+            text-align: center;
+        }
+        @media only screen and (max-width: 560px) {
+            border: 6px rgba($color-primary, 0.05) dashed;
+            padding: 3rem;
+        }
+        @media only screen and (max-width: 374px) {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+    }
+    &__title {
+        max-width: 900px;
+        font-weight: 900;
+        font-size: 5rem;
+        margin-bottom: 6rem;
+        @media only screen and (max-width: 660px) {
+            font-size: 4.2rem;
+        }
+        @media only screen and (max-width: 585px) {
+            font-size: 4rem;
+            margin-bottom: 4rem;
+        }
+        @media only screen and (max-width: 520px) {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+        @media only screen and (max-width: 395px) {
+            font-size: 2.8rem;
+        }
+        @media only screen and (max-width: 374px) {
+            font-size: 2.6rem;
+        }
+        @media only screen and (max-width: 355px) {
+            font-size: 2.4rem;
+        }
+        @media only screen and (max-width: 340px) {
+            font-size: 2rem;
+        }
+    }
+    & .btn {
+        padding: 2.5rem 3rem;
+        @media only screen and (max-width: 768px) {
+            padding: 2.5rem 0;
+            display: block;
+            text-align: center;
+            border-radius: 1rem;
+            font-size: 2rem;
+        }
+        @media only screen and (max-width: 520px) {
+            padding: 1.7rem 0;
+            font-size: 1.7rem;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-primary-background;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+    color: white;
+    overflow-x: hidden;
+}
+
+.nav-active-overflow-y-hidden {
+    @media only screen and (max-width: 900px) {
+        overflow-y: hidden !important;
+    }
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    @media only screen and (max-width: 490px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
