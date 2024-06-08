@@ -32,76 +32,6 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/636f7d6c07.js" crossorigin="anonymous"></script>
-
-    <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="RycKrFtwV_XEjrE7OfJ774qXWy4Tlvzy3x_zsDEfsiI" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165912216-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-165912216-1');
-    </script>
-    <!-- End Google Analytics Code -->
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '295246911719029');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=295246911719029&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
-
-    <!-- Snap Pixel Code -->
-    <script type='text/javascript'>
-        (function(e, t, n) {
-            if (e.snaptr) return;
-            var a = e.snaptr = function() {
-                a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments)
-            };
-            a.queue = [];
-            var s = 'script';
-            r = t.createElement(s);
-            r.async = !0;
-            r.src = n;
-            var u = t.getElementsByTagName(s)[0];
-            u.parentNode.insertBefore(r, u);
-        })(window, document,
-            'https://sc-static.net/scevent.min.js');
-
-        snaptr('init', '5b8974d5-a733-4dbc-83ea-dd2a6a479ec6', {
-            'user_email': '__INSERT_USER_EMAIL__'
-        });
-
-        snaptr('track', 'PAGE_VIEW');
-    </script>
-    <!-- End Snap Pixel Code -->
 </head>
 
 <body>
@@ -109,7 +39,7 @@
     <nav class="nav">
         <div class="container u-display-flex u-justify-content-space-between u-align-items-center u-full-height">
             <div class="logo-box">
-                <a href="https://www.trimio.se"><img src="/assets/images/title.svg" alt="Logo" class="logo"></a>
+                <a href="/"><img src="/assets/images/title.svg" alt="Logo" class="logo"></a>
             </div>
             <div class="btn-box">
                 <a class="btn btn--primary nav-btn-anim" href="https://apps.apple.com/se/app/trimio/id1512398591">Ladda ner</a>
@@ -225,10 +155,10 @@
                 <div class="footer__menu">
                     <div class="footer__menu-head">TRIMIO</div>
                     <ul class="footer__menu-list u-list-style-none">
-                        <li class="footer__menu-item"><a href="https://www.trimio.se/kontakt">Kontakta oss</a></li>
-                        <li class="footer__menu-item"><a href="https://www.trimio.se/anvandarvillkor">Användarvillkor</a></li>
-                        <li class="footer__menu-item"><a href="https://www.trimio.se/integritetspolicy">Integritetspolicy</a></li>
-                        <li class="footer__menu-item"><a href="https://www.trimio.se/cookies">Användning av kakor</a></li>
+                        <li class="footer__menu-item"><a href="/kontakt">Kontakta oss</a></li>
+                        <li class="footer__menu-item"><a href="/anvandarvillkor">Användarvillkor</a></li>
+                        <li class="footer__menu-item"><a href="/integritetspolicy">Integritetspolicy</a></li>
+                        <li class="footer__menu-item"><a href="/cookies">Användning av kakor</a></li>
                     </ul>
                 </div>
             </div>
@@ -237,7 +167,7 @@
 
     <!-- Cookies Popup -->
     <div class="cookies_popup hidden">
-        <p class="cookies_popup-info">Genom att använda Trimio godkänner du vår <a href="https://www.trimio.se/cookies" class="cookies_link">Cookie Policy</a></p>
+        <p class="cookies_popup-info">Genom att använda Trimio godkänner du vår <a href="/cookies" class="cookies_link">Cookie Policy</a></p>
         <a class="cookies_popup-btn">OK</a>
     </div>
 
